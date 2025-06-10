@@ -22,7 +22,7 @@ This is the **frontend** for the Todo Management System, built using **React** w
 - [Vite](https://vitejs.dev/)
 - [Axios](https://axios-http.com/) – for API requests
 - [React Router](https://reactrouter.com/) – for navigation
-- [Tailwind CSS](https://tailwindcss.com/) or Bootstrap (optional)
+- [Bootstrap](https://getbootstrap.com/)  
 
 ---
 
