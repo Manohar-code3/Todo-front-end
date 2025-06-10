@@ -1,8 +1,46 @@
-# React + Vite
+# 🖥️ Todo Management System – Frontend (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **frontend** for the Todo Management System, built using **React** with **Vite** for fast development and performance. It connects to a Spring Boot backend via RESTful APIs and provides a clean UI for managing todos.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
+
+- View all todos
+- Add a new todo
+- Edit an existing todo
+- Delete a todo
+- Mark todo as completed
+- Responsive and minimal UI
+- API integration with Spring Boot backend
+
+---
+
+## ⚙️ Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Axios](https://axios-http.com/) – for API requests
+- [React Router](https://reactrouter.com/) – for navigation
+- [Tailwind CSS](https://tailwindcss.com/) or Bootstrap (optional)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v16+ recommended)
+- Backend running at `http://localhost:8080` (default)
+
+### Installation
+
+1. Clone the repository (or navigate to frontend directory):
+```bash
+cd frontend
+npm install
+npm run dev
+http://localhost:5173
+```
+#### API Connection
+```http://localhost:8080```
